@@ -1,0 +1,1 @@
+# chatgpt-makale-olusturucu
