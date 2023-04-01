@@ -14,7 +14,7 @@ def generate_article(keyword, writing_style, word_count):
         messages = [
         {"role":"user", "content":keyword + "Hakkında SEO için optimize edilmiş bir  makale yaz ve makalenin içindeki başlıkları h1, h2, h3 gibi özelliklerde kullan." },
         {"role":"user", "content":"Bu makale stil sahibi olmalı:" + writing_style},
-        {"role":"user", "content":"Makale uzunluğu ise şu kadar olmalı olmalı" + str(word_count)}
+        {"role":"user", "content":"Makale uzunluğu ise şu kadar olmalı " + str(word_count)}
         ]
     )
     result = ''
